@@ -4,11 +4,22 @@
 
 .nav-link{
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;  
+    font-size: 25px;  
 }
 
 .nav-item{
   margin-left: 80px;
+}
+
+
+
+
+.navbar-nav li:hover{
+    transform: scale(1.2);
+}
+
+.navbar-nav li{
+    transition: transform 0.5s;
 }
 
 .h2{
@@ -16,13 +27,15 @@
     font-family:'Bebas Neue', cursive;
     color: white;
     background-color: rgb(5, 92, 24);
+    margin-bottom: 0px;
     
     
 }
 
 
+
 .carousel-item img{
-    height: 550px;
+    height: 650px;
 }
 
 .novedades{
@@ -30,9 +43,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+
+
 .card{
     display:inline-block;
-    margin-left: 40px;
+    margin:auto;
     margin-top: 20px;
 }
 
@@ -70,22 +86,101 @@
 
 .hombre{
     margin-left: 20px;
+    margin-bottom: 100px;
 }
 
+.container-fluid .card:hover{
+    transform: scale(1.1);
+}
+
+.container-fluid .card{
+    transition: transform 0.5s;
+}
 
 .card{
     margin-bottom: 60px;
 }
 
 
+
+/* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER *//* MUJER */
+
+.mujer{
+    margin-left: 20px;
+    margin-bottom: 100px;
+    
+}
+
+/* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO *//* CONTACTO */
+
+.body{
+    background-color: #8f622f;
+    background: linear-gradient(135deg, #57390e 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #8f6916 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #755313 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #644a10 25%, #5c420b 25%) 0px 0/ 20px 20px;
+}
+
+
+.titulo{
+    color: white;
+}
+
+
+.formulario{
+    width: 300px;
+    background-color: rgb(124, 107, 29);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+
+.campos__form{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+
+}
+
+.textArea{
+    width: 100%;
+    height: 100px;
+}
+
+.button{
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+    
+
+
+
+
+
+
+
 @media (max-width:768px) {
 
-    .cards{
-        text-align: center;
+    .navbar-nav li:hover{
+        transform:none;
     }
-    .cards-hombre{
-        text-align: center;
+    
+    .navbar-nav li{
+        transition:none;
     }
+
+    .container-fluid .card:hover{
+        transform: none;
+    }
+    
+    .container-fluid .card{
+        transition:none;
+    }
+
 
     .carousel-item img{
         height: 350px;
