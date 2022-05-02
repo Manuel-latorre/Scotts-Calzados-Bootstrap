@@ -1,0 +1,24 @@
+.header {
+  background-color: #044204; }
+  .header .nav-item {
+    margin-left: 80px; }
+    .header .nav-item-link {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 25px; }
+      .header .nav-item-link .navbar-nav li {
+        transition: transform 0.5s; }
+        .header .nav-item-link .navbar-nav li:hover {
+          transform: scale(1.2); }
+
+.footer {
+  background-color: #044204;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100px;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%; }
+  .footer .icono-footer {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px; }
