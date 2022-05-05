@@ -65,16 +65,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 100px;
-    align-items: flex-end;
+    align-items:center;
     position: absolute;
     width: 100%;
 
-    .icono-footer{
-        width: 40px;
-        height:40px;
-        margin-bottom: 10px;
-    }
+    
 }
+
+i{
+    color:map-get($colores,footer)
+}
+
+
 
 @media (max-width:768px) {
 
