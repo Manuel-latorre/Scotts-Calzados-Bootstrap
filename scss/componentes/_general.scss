@@ -28,8 +28,10 @@
     @include font(20px,white,);
     font-family: 'Bebas Neue', cursive;
     background-color: map-get($colores,secundario);
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
+
 
 .carousel-item img{
     height: 650px;
@@ -95,12 +97,6 @@
     color:map-get($colores, terciario);
     margin-bottom: 20px;
 }
-
-
-    
-
-    
-    
 
 i{
     color:map-get($colores,footer);

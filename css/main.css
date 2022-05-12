@@ -19,7 +19,7 @@
   color: white;
   font-family: 'Bebas Neue', cursive;
   background-color: #055c18;
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
 
 .carousel-item img {
   height: 650px; }
@@ -111,7 +111,7 @@ i {
   margin-bottom: 60px; }
 
 .body {
-  background-image: url("/imagenes/imagen-carrusel2.jpg");
+  background-image: url("../../imagenes/imagen-carrusel2.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
