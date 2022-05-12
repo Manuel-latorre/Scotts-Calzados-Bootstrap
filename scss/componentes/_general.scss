@@ -21,6 +21,7 @@
 }
 
 
+
             
             
 
@@ -102,6 +103,15 @@ i{
     color:map-get($colores,footer);
 }
 
+@media (max-width:992px){
+    .navbar-nav{
+        margin-left:-80px;
+    }
+    .logo{
+        margin:auto;
+    }
+
+}
 
 @media (max-width:768px) {
 
