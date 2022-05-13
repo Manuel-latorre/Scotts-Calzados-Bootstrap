@@ -20,6 +20,19 @@
     }
 }
 
+.navbar-toggler{
+    border-radius:3px;
+    border:0;
+    background: none;
+    text-decoration: none;
+    border-color: none;
+    padding:0;
+    line-height: 0;
+}
+
+.navbar-dark .navbar-toggler{
+    background-color: rgb(18, 85, 38)
+}
 
 
             

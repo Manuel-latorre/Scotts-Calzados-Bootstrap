@@ -14,6 +14,18 @@
         .header .nav-item .nav-link .navbar-nav li:hover {
           transform: scale(1.2); }
 
+.navbar-toggler {
+  border-radius: 3px;
+  border: 0;
+  background: none;
+  text-decoration: none;
+  border-color: none;
+  padding: 0;
+  line-height: 0; }
+
+.navbar-dark .navbar-toggler {
+  background-color: #125526; }
+
 .h2 {
   font-size: 20px;
   color: white;
@@ -117,7 +129,7 @@ i {
   margin-bottom: 60px; }
 
 .body {
-  background-image: url("/imagenes/imagen-carrusel2.jpg");
+  background-image: url(/imagenes/imagen-carrusel2.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
