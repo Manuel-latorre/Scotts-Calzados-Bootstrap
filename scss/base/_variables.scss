@@ -12,6 +12,21 @@ $tipografias:(
 
 );
 
+%titulos{
+    margin-left: 20px;
+    margin-bottom: 100px;
+};
+
+@mixin font ($font-size, $color){
+    font-size:$font-size;
+    color:$color;
+}
+
+
+    
+    
+
+
 
 
 

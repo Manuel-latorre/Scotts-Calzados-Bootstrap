@@ -1,4 +1,3 @@
 .mujer{
-    margin-left: 20px;
-    margin-bottom: 100px;
+    @extend %titulos;
 }
