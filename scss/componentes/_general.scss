@@ -34,10 +34,6 @@
     background-color: rgb(18, 85, 38)
 }
 
-
-            
-            
-
 .h2{
     @include font(20px,white,);
     font-family: 'Bebas Neue', cursive;
@@ -45,17 +41,15 @@
     margin-bottom: 0;
 }
 
-
-
 .carousel-item img{
     height: 650px;
 }
-
+            
 .novedades{
     margin-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+            
 .card{
     display:inline-block;
     margin:auto;
@@ -75,7 +69,6 @@
     margin-right: 30px;
 }
 
-
 .footer{
     background-color:map-get($colores,primario);
     display:grid;
@@ -92,6 +85,7 @@
     }
     
 }
+
 
 .linksFooter{
     color:white;
@@ -167,6 +161,12 @@ i{
         height: 600px;
     }
 }
+
+
+
+
+
+
 
 
 
